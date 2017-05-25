@@ -60,3 +60,36 @@
   width:30px;
   height: 25px;
 }
+#expediente{
+	position: relative;
+}
+#partes{
+	position: relative; 
+	display: none;
+}
+.toggle{
+	border: 1px solid #025aa5;
+}
+.imgTutorial{
+	display: block; 
+	margin: auto;
+}
+.imgOverlay{
+	position: absolute;
+	width: 80%; 
+	left: 20%;
+	max-width: 350px;
+}
+.imgOverlayC{
+	left: 12%;
+}
+.imgOverlayF{
+	left: 30%;
+}
+.overlayText{
+	display: inline-flex;
+  text-shadow: 3px 3px 4px rgba(150, 150, 150, 1);
+}
+.arrow{
+	width: 30px;
+}
