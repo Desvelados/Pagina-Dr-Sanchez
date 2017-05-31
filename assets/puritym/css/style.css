@@ -220,10 +220,13 @@ footer.mbr-footer {
     background-color: transparent; }
   .mbr-navbar .navbar-logo {
     margin-right: 1.5rem;
-    float: left; }
+    float: left;
+    margin-bottom: -1rem; }
   .mbr-navbar .navbar-logo,
   .mbr-navbar .navbar-logo img {
-    height: 45px; }
+    width:60px;
+  height: 60px;
+    }
   .mbr-navbar .navbar-brand {
     margin-right: 1.5rem; }
   .mbr-navbar .navbar-divider,
@@ -244,7 +247,7 @@ footer.mbr-footer {
   color: #000 !important; }
 
 /**
- * Mobirise Classes
+ Classes
  */
 .mbr-after-navbar:before {
   content: "";
