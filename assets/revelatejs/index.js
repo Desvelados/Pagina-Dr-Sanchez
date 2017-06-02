@@ -17,3 +17,19 @@ function showOp2(){
 	$("#partes").show();
 	$("#partes").addClass("animated fadeInRight");
 }
+
+function carlos(){
+	var juan= $(window).width();
+	var tomy= $("#imagentut").width();
+	if(juan > tomy){
+	
+		document.body.style.width=100+'%'
+	}
+	else if (juan <= tomy){
+		
+		var caluclo=0;
+		document.body.style.width=682+'px'
+		
+	}
+	
+}

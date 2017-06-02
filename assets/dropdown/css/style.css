@@ -180,7 +180,24 @@
     -ms-transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
     width: 18.75rem;
-    z-index: 999; } }
+    z-index: 999; } 
+
+  .navbar-logo {
+  width: 0%;
+  height: 0%;
+  display:none;
+}
+
+/*MODIFICACION ICONO DEL NAV BAR*/
+/*#caminoSeguir {
+  width: 0%;
+  height: 0%;
+  display:none;
+}*/
+
+  
+
+}
 .nav-dropdown.navbar-toggleable-xl {
   bottom: 0;
   display: none;
@@ -281,3 +298,4 @@
   transition: none !important; }
 
 /*# sourceMappingURL=style.css.map */
+
