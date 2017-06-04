@@ -24,7 +24,7 @@ $mensaje="
 </div>";
 
 // envío del email
-mail("desveladosd@gmail.com", "Consulta Web de $apellido, $nombre", $mensaje, "From: ". $email . "<$email>\nReply-To:$email\nContent-Type: text/html; charset=utf-8\n");
+mail("dr_martinmiguelsanchez@yahoo.com.ar", "Consulta Web de $apellido, $nombre", $mensaje, "From: ". $email . "<$email>\nReply-To:$email\nContent-Type: text/html; charset=utf-8\n");
 
 
 $response = 'ok';
