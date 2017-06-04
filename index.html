@@ -203,8 +203,7 @@
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
                 <h2 class="mbr-section-title display-3 text-xs-center">Contactanos</h2>
-                <div data-form-alert="true"><div hidden="" data-form-alert-success="true">Gracias! Lo contactaremos a la brevedad.</div></div>
-                <form action="assets/php/mail.php" method="post" data-form-title="Contactanos">
+                <form id="formulario" data-form-title="Contactanos">
                     <input type="hidden" value="CC2sqHGAPDC3/wSlEuqO7xRiBpCgtjjeaVQ3W9X03wurg2sQRZpF0/HK83w52xdoLLgJ2iymv0o9Bukm7TdKRGeXAN32CFXI5hcTaYg/3PPp8Bomc3qTuY+h+nXBCwXs" data-form-email="true">
                     <div class="form-group">
                         <input type="text" class="form-control" name="nombre" required="" placeholder="Nombre*" data-form-field="nombre" required>
@@ -231,6 +230,23 @@
     </div>
 </section>
 </div>
+<!--MENSAJE DE CONSULTA-->
+<div class="modal fade" id="Msgbox" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="text-align: center;">Aviso</h4>
+            </div>
+            <div class="modal-body">
+                <p id="MsgboxMSJ"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!--DATOS DE CONTACTO-->
 <section class="mbr-section mbr-section-small mbr-footer" id="contacts1-8" style="background-color: rgb(55, 56, 62); padding-top: 4.5rem; padding-bottom: 4.5rem;">
     <div class="container">
@@ -254,7 +270,6 @@
         <p class="manito" onclick="window.open('http://www.revelat.com.ar');">Copyright (c) 2017 Re<a style="color: #81D2F1" >v</a>elat.<img src="assets/images/revelatIcon.png"><em><a>Terminos y condiciones</a></em>  | <a>Privacy Policy</a></p>
         <div style="float:right; margin-top: -5%"><a class="btn btn-lg btn-black-outline btn-black" href="index.html#slider-1" target="_blank">Ir Arriba</a></div>
     </div>
-
 </footer>
 
 <!--UTILIZAMOS JAVA SCRIPT-->
@@ -268,9 +283,5 @@
   <script src="assets/puritym/js/script.js"></script>
   <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
   <script src="assets/dropdown/js/script.min.js"></script>
-
-
-
-   <!--<script src="assets/formoid/formoid.min.js"></script>-->
 </body>
 </html>

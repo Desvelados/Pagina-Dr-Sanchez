@@ -26,6 +26,10 @@ $mensaje="
 // envío del email
 mail("desveladosd@gmail.com", "Consulta Web de $apellido, $nombre", $mensaje, "From: ". $email . "<$email>\nReply-To:$email\nContent-Type: text/html; charset=utf-8\n");
 
+
+$response = 'ok';
+echo($response);
+
 //con esto me lleva a alguna pagina
-header("Location: localhost:8080\prueba");
+//header("Location: localhost:8080\prueba");
 ?>
