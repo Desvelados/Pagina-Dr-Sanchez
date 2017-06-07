@@ -103,3 +103,6 @@
 .manito{
   cursor:pointer;
 }
+.btn:focus,.btn:active {
+   outline: none !important;
+}

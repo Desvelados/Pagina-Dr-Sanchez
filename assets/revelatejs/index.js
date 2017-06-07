@@ -1,10 +1,14 @@
 function mOnload(){
-	$('#selector').change(function() {
-		if($(this).prop('checked'))
+	$('#selector1').click(function(){
 			showOp1();
-		else
+			$("#selector1").removeClass("btn-secondary").addClass("btn-primary");
+			$("#selector2").removeClass("btn-primary").addClass("btn-secondary");
+	});
+	$('#selector2').click(function(){
 			showOp2();
-    });
+			$("#selector2").removeClass("btn-secondary").addClass("btn-primary");
+			$("#selector1").removeClass("btn-primary").addClass("btn-secondary");
+	});
 }
 function showOp1(){
 	$("#partes").hide();
